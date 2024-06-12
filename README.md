@@ -16,7 +16,7 @@ This is a somewhat unorthodox supervised learning implementation of Gaussian mix
 
 ## Methodology
 
-- We train a k-component GMM separately on each class of the dataset, using the labels included in the MNIST dataset (which we compress with PCA, keeping d=29 principal components, thereby reducing the dimension and size of the dataset by more than 50%). Using a fixed number of Gaussian components (i.e. multivariate Gaussian distributions) per GMM for each class in the dataset, we use the BIC method to find the optimal number of components, which for d=29 is k=15. (If computational cost is a concern, the GMM trained on each class could have a different and lesser number of components, which would involve computing a BIC for each component.)
+- We train a k-component GMM separately on each class of the dataset, using the labels included in the MNIST dataset (which we compress with PCA, keeping d=29 principal components, thereby reducing the dimension and size of the dataset by more than 50%). Using a fixed number of Gaussian components (i.e. multivariate Gaussian distributions) per GMM for each class in the dataset, we use the BIC method to find the optimal number of components, which for d=29 is k=15. (If computational cost is a concern, the GMM trained on each class could have a different and lesser number of components, which would involve, for instance, optimizing each component for BIC.)
 
 - We classify the MNIST dataset using our "combined GMM" as follows: for each sample in the dataset, we compute the log likelihood of the sample under each GMM. The “class” of the GMM corresponding to the highest log likelihood is considered the predicted class for that sample.
 
