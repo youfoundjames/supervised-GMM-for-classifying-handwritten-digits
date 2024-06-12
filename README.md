@@ -20,7 +20,7 @@ This is a somewhat unorthodox supervised learning implementation of Gaussian mix
 
 - We classify the MNIST dataset using our "combined GMM" as follows: for each sample in the dataset, we compute the log likelihood of the sample under each GMM. The “class” of the GMM corresponding to the highest log likelihood is considered the predicted class for that sample.
 
-- We also compare the predictive performance of our classifier to that of other classification models, namely gradient boosted decision trees and random decision forests. Our model performs better on these datasets, though it has also been optimized more effortfully.
+- We also compare the predictive performance of our classifier to that of other classification models, namely gradient boosted decision trees and random decision forests. Our model performs better than these classifiers on the datasets. However, our GMM has also been optimized more effortfully than the decision trees or random forest models on the particular datasets.
 
 ## Results
 
