@@ -8,7 +8,7 @@ This is a somewhat unorthodox supervised learning implementation of Gaussian mix
 ## Datasets used
 
 - Scikit-learn MNIST dataset
-    - Returns 1,797 samples (8x8 matrices) of handwritten digits 0-9. (We compress the samples using principal component analysis (PCA).)
+    - Returns 1,797 samples (8x8 matrices) of handwritten digits 0-9. (We compress the samples using principal component analysis.)
 - Scikit-learn moons dataset
     - Takes parameters n_samples, noise, random_state. Passing integer values to random_state allows reproduction of exact same dataset
     - Returns X, ndarray of 2-dimensional datapoints; y, ndarray of class membership of each datapoint
