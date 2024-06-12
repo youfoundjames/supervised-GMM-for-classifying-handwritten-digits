@@ -30,7 +30,7 @@ The supervised model classifies the MNIST dataset with 100% accuracy. Here are t
 
 (confusion matrix)
 
-We compare its predictive performance to other classifiers in the attached report.
+We compare its predictive performance to other classifiers in the attached report. In the report, we also graph and assess its predictive performance on sklearn "toy" datasets with different levels of noise added to the data.
 
 ## Dependencies & environment
 
