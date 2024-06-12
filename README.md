@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a somewhat unorthodox supervised learning implementation of Gaussian mixture models which, among other things, classifies the MNIST dataset with perfect accuracy. It is optimized for several metrics (namely Bayesian information criterion (BIC), F1 score, and accuracy, as in harmonic mean of precision/recall). It can also accurately classify various sklearn toy datasets; included in this implementation is a classifier on the sklearn moons dataset.
+This is a somewhat unorthodox supervised learning implementation of Gaussian mixture models which, among other things, classifies the MNIST dataset with perfect accuracy. It is optimized for several metrics (namely Bayesian information criterion (BIC), F1 score, and accuracy, as in harmonic mean of precision/recall). It can also accurately classify various sklearn datasets; included in this implementation is a classifier on the sklearn moons dataset.
 
 ## Datasets used
 
@@ -42,7 +42,7 @@ We compare its predictive performance to other classifiers in the attached repor
 - (Optional) matplotlib 3.9.0 (for data visualization)
 - (Optional) seaborn 0.13.2 (for enhanced data visualization)
 
-Created in Anaconda
+Created in Anaconda. Jupyter notebook and standalone .py included.
 
 
 ## Instructions to run
