@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a somewhat unorthodox supervised learning implementation of Gaussian mixture models (GMMs) which, among other things, classifies the sklearn MNIST dataset of handwritten digits with 100% accuracy. It is optimized for several metrics (namely Bayesian information criterion (BIC), F1 score, and accuracy, as in harmonic mean of precision/recall). It can also accurately classify various sklearn datasets; included in this implementation is a classifier on the sklearn moons dataset.
+This is a somewhat unorthodox supervised learning implementation of Gaussian mixture models (GMMs) which, among other things, classifies the sklearn MNIST dataset of handwritten digits with 100% accuracy. It is optimized for several metrics (namely Bayesian information criterion (BIC), F1 score, and accuracy). It can also accurately classify various sklearn datasets; included in this implementation is a classifier on the sklearn moons dataset.
 
 ## Datasets used
 
